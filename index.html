@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a0a2e 0%, #0f0519 50%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: white;
+        }
+        
+        h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 8rem;
+            font-weight: normal;
+            text-align: center;
+            margin-bottom: 40px;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-in;
+            color: #f0f0f0;
+        }
+        
+        p {
+            font-size: 1.5rem;
+            text-align: center;
+            max-width: 800px;
+            line-height: 1.6;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 4rem;
+            }
+            
+            p {
+                font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 3rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>It's coming soon</h1>
+    <p>We will be making gorgeous wallpapers available is a variety of sizes which you can download for free expected startup-2026!</p>
+</body>
+</html>
